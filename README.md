@@ -14,14 +14,19 @@ Change: Changes a person’s phone number, given the person’s name and new pho
 
 Quit: Quits the application, after first saving the phone book in a text file. 
 
+
 You can proceed as follows: 
+
  Design and implement the class Person, which represents the name and phone number of a
 person.  You will store instances of this class in the phone book.
+
  Design and implement the class PhoneBook, which represents the phone book.  The class should
 contain a binary search tree as a data field.  This binary search tree contains the people in the
 book and the PhoneBook class should contain all of the methods which “operate” the binary
 search tree.
+
  Add methods to the PhoneBook class that use a text file to save and restore the tree.
+
  Design and implement the class Menu, which provides the program’s user interface.  This class
 contains a main method which displays a menu for the user, declares an object from the
 PhoneBook class, then invokes the Add, Delete, Find, Change or Quit methods on that
