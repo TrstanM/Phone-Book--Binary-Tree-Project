@@ -3,11 +3,17 @@
 Write a program that provides a way for you to store and retrieve telephone numbers.  This “phone 
 book” will store names and numbers in a binary search tree.  Design a console program that provides 
 the following operations: 
+
 Add: Adds a person’s name and phone number to the phone book. 
+
 Delete: Deletes a given person’s name and phone number from the phone book, given only the name. 
+
 Find: Locates a person’s phone number, given only the person’s name. 
+
 Change: Changes a person’s phone number, given the person’s name and new phone number. 
+
 Quit: Quits the application, after first saving the phone book in a text file. 
+
 You can proceed as follows: 
  Design and implement the class Person, which represents the name and phone number of a
 person.  You will store instances of this class in the phone book.
